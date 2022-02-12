@@ -5,3 +5,83 @@
 width: 100%;
 height: 100%;
 }
+header{
+    background:lightblue;
+    border:1px solid black;
+    position:center;
+    top:0%;
+    width:100%;
+}
+#header-logo, #search-form{
+    display:inline-block;
+}
+#hearder-logo img{
+    width:100px;
+    height:100px;
+    margin:20px 0px 0px 20px;
+}
+#search-form{
+    float:right;
+    margin:50px 20px;
+}
+#search-form input{
+    padding: 10px;
+    border: none;
+    background-image: url(https://th.bing.com/th?q=Search+Icon+3D&w=120&h=120&c=1&rs=1&qlt=90&cb=1&pid=InlineBlock&mkt=en-IN&cc=IN&setlang=en&adlt=moderate&t=1&mw=247);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+#nav-bar{
+    background-color: lightblue;
+    border: 1px solid black;
+
+}
+ul{
+    list-style:none;
+    padding-left: 0px;
+}
+a{
+    text-decoration: none;
+    color:blue;
+    font-weight: bold;
+}
+:focus, a:hover{
+    color:none;
+}
+#nav-bar ul{
+    display:flex;
+    justify-content: space-around;
+}
+#nav-bar ul li{
+    padding:2px;
+}
+.post-img{
+    width:200px;
+    height:200px;
+    margin:5px;
+}
+
+#page-content{
+    display:flex;
+    justify-content: space-around;
+    background-color:white;
+    margin:190px 0 50px 0;
+}
+#page-content ul{
+    border:1px solid black;
+    height:90%;
+    padding:0 20px;
+}
+#page-content ul li{
+    padding:5px;
+    margin-top:5px;
+}
+
+
+
+#pafe-footer{
+    padding:10px;
+    background-color: aquamarine;
+    border:1px solid black;
+}
