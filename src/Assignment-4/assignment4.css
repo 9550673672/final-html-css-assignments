@@ -121,12 +121,12 @@ nav li:hover{
     border:3px solid #3F8DA7;
     height:200px;
     width: 200px;
-    margin: 20px 0px;
+    margin: 20px 0px 0px;
 } 
 .three-col p{
     margin-bottom: 25px;
 }
-footer{
+footer {
     background:#3F8DA7;
     color:white;
     margin-top:20px;
