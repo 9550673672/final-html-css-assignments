@@ -60,7 +60,7 @@ header nav {
 header h1 {
     float: left;
     text-indent: -9999px;
-    background:url('./assets/icons/images/pictures.png');
+    background:url('./assets/icons/pictures.png');
     background-size: cover;
     height: 35px;
     width: 35px;
@@ -76,7 +76,7 @@ nav li:hover {
     cursor: pointer;
 }
 #hero{
-    background: url('./assets/icons/images/background\ image.jpg') no-repeat;
+    background: url('./assets/icons/background\ image.jpg') no-repeat;
     background-size: cover;
     text-align: center;
     padding:50px 0;
